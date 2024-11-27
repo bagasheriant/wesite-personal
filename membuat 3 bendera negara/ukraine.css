@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+}
+.name{
+    color: black;
+    background: lightblue;
+    padding: 5px;
+}
+.flag{
+    color: black;
+    padding: 5px;
+      background: yellow;
+;
+}
+.upper{
+    height: 80px;
+    width: 300px;
+    transition: .5s ease;
+    transform: translateX(-300px);
+ 
+      background: lightblue;
+    opacity: 0;
+}
+.lower{
+    height: 80px;
+    transform: translateX(300px);
+    width: 300px;
+   background: yellow;
+    transition: .5s ease;
+    opacity: 0;
+}
+.flagg{
+    height: 180px;
+    width: 400px;
+    cursor: pointer;
+}
+.flagg:hover .upper{
+    transform: translateX(0px);
+    opacity: 1;
+}
+.flagg:hover .lower{
+    transform: translateX(0px);
+    opacity: 1;
+
+ a{
+    padding:5px;
+    border:1px solid white;
+    color:white;
+    text-decoration:none;
+  }
